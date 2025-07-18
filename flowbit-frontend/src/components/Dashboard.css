@@ -1,0 +1,80 @@
+.dashboard {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+.create-ticket {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.create-ticket input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.create-ticket button {
+  padding: 8px 14px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.2s ease;
+}
+
+.create-ticket button:hover {
+  background-color: #1b5e20;
+}
+
+.ticket-list {
+  list-style: none;
+  padding: 0;
+}
+
+.ticket {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.ticket span {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #555;
+}
+
+.ticket button {
+  background-color: #0288d1;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.ticket button:hover {
+  background-color: #01579b;
+}

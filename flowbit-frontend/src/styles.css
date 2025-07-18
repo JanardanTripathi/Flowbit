@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a global font and background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f4f7;
+  color: #333;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Login form styling */
+form {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Dashboard styling */
+.dashboard {
+  max-width: 900px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.05);
+}
+
+.dashboard h2 {
+  margin-bottom: 24px;
+  color: #2c3e50;
+  font-size: 28px;
+}
+
+.ticket {
+  padding: 16px;
+  margin-bottom: 18px;
+  border-left: 6px solid #28a745;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.ticket p {
+  margin-bottom: 6px;
+}
+
+.logout-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #dc3545;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background-color: #c82333;
+}

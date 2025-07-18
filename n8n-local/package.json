@@ -1,0 +1,9 @@
+{
+  "name": "n8n-local",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "overrides": {
+    "xlsx": "0.0.1"
+  }
+}
